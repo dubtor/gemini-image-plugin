@@ -52,17 +52,17 @@ export GEMINI_API_KEY=your_key_here
 | `--output DIR`, `-o DIR` | Output directory | ./generated-images |
 | `--name NAME` | Filename prefix | Auto from prompt |
 | `--reference FILE` | Reference image (repeatable) | — |
-| `--model MODEL` | Gemini model to use | gemini-2.5-flash-preview-image-generation |
+| `--model MODEL` | Gemini model to use | gemini-3.1-flash-image-preview |
 | `--seed N` | Random seed for reproducibility | — |
 | `--no-enhance` | Skip prompt optimization | — |
 | `--quiet`, `-q` | Minimal output | — |
 
 ## Model
 
-Default model: `gemini-2.5-flash-preview-image-generation`
+Default model: `gemini-3.1-flash-image-preview`
 
 You can switch models with `--model`:
-- `gemini-2.5-flash-preview-image-generation` — Fast, high quality (default)
+- `gemini-3.1-flash-image-preview` — Fast, high quality (default)
 
 Key capabilities:
 - Native image generation via Gemini's multimodal capabilities

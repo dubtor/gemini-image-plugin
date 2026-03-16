@@ -68,7 +68,7 @@ Get a key at https://aistudio.google.com/apikey
 - `--output DIR` / `-o DIR` — output directory (default: ./generated-images)
 - `--name NAME` — filename prefix (default: auto from prompt)
 - `--reference FILE` — reference image for image-to-image mode (repeatable, local paths or URLs)
-- `--model MODEL` — Gemini model to use (default: gemini-2.5-flash-preview-image-generation)
+- `--model MODEL` — Gemini model to use (default: gemini-3.1-flash-image-preview)
 - `--seed N` — random seed for reproducible results
 - `--quiet` / `-q` — minimal output
 

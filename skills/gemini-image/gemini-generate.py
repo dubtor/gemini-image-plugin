@@ -22,7 +22,7 @@ from pathlib import Path
 
 # ── Model & Endpoint ──────────────────────────────────────────────────────
 API_BASE = "https://generativelanguage.googleapis.com/v1beta"
-DEFAULT_MODEL = "gemini-2.5-flash-preview-image-generation"
+DEFAULT_MODEL = "gemini-3.1-flash-image-preview"
 
 VALID_RATIOS = [
     "1:1", "3:2", "2:3", "3:4", "4:3",
