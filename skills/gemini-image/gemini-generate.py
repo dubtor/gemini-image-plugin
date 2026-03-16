@@ -209,8 +209,6 @@ Examples:
                         help="Random seed for reproducible results")
     parser.add_argument("--timeout", type=int, default=120,
                         help="Max seconds per request (default: 120)")
-    parser.add_argument("--no-enhance", action="store_true",
-                        help="Flag handled by Claude (skip prompt optimization). Accepted but ignored by this script.")
     parser.add_argument("--quiet", "-q", action="store_true",
                         help="Minimal output (only print final file paths)")
 

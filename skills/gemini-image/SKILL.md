@@ -45,7 +45,7 @@ Run the Python script via Bash with the final prompt and all other arguments:
 python3 ${CLAUDE_PLUGIN_ROOT}/skills/gemini-image/gemini-generate.py "THE FINAL PROMPT" [other args from $ARGUMENTS]
 ```
 
-Note: When enhancing the prompt, replace the user's original prompt with the enhanced version in the command. Pass **all** flags through unchanged — including `--no-enhance` (the script accepts it silently).
+Note: When enhancing the prompt, replace the user's original prompt with the enhanced version in the command. Pass all other flags through unchanged. **Do NOT pass `--no-enhance` to the script** — it is only a signal to you (Claude) and not a script parameter.
 
 ### Step 3: Show results
 
