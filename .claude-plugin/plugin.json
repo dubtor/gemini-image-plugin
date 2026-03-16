@@ -1,0 +1,12 @@
+{
+  "name": "gemini-image",
+  "version": "1.0.0",
+  "description": "Generate and edit images via Google Gemini API. Text-to-image and image-to-image with reference images.",
+  "author": {
+    "name": "Robert Clemens",
+    "url": "https://83ventures.io"
+  },
+  "repository": "https://github.com/dubtor/gemini-image-plugin",
+  "license": "MIT",
+  "keywords": ["image-generation", "gemini", "google", "nano-banana", "text-to-image", "image-to-image"]
+}
