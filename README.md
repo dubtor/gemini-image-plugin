@@ -71,6 +71,10 @@ Key capabilities:
 - Resolutions from 512px to 4K
 - Direct API — no queue, no polling, instant response
 
+## Pricing
+
+Gemini image generation is free during preview. Once generally available, pricing will follow Google's standard Gemini API rates. See [ai.google.dev/pricing](https://ai.google.dev/pricing) for current info.
+
 ## Prompt Enhancement
 
 By default, Claude enhances your prompt with composition, lighting, camera/lens, and color grading details. Use `--no-enhance` to skip this.

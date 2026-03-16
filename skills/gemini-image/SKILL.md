@@ -45,11 +45,11 @@ Run the Python script via Bash with the final prompt and all other arguments:
 python3 ${CLAUDE_PLUGIN_ROOT}/skills/gemini-image/gemini-generate.py "THE FINAL PROMPT" [other args from $ARGUMENTS]
 ```
 
-Note: When enhancing the prompt, replace the user's original prompt with the enhanced version in the command. Pass all other flags through unchanged.
+Note: When enhancing the prompt, replace the user's original prompt with the enhanced version in the command. Pass **all** flags through unchanged — including `--no-enhance` (the script accepts it silently).
 
 ### Step 3: Show results
 
-After the script completes, **display the generated images** to the user using the Read tool on each downloaded file.
+After the script completes, **display the generated images** to the user using the Read tool on each downloaded file. The script automatically opens the output folder in Finder.
 
 If the script exits with an error about GEMINI_API_KEY, tell the user:
 ```
@@ -90,3 +90,7 @@ Get a key at https://aistudio.google.com/apikey
 # Multiple references
 /gemini-image:gemini-image "Combine style and content" --reference style.png --reference content.png
 ```
+
+## Pricing
+
+Gemini image generation is free during preview. Once generally available, pricing will follow Google's standard Gemini API rates. Check https://ai.google.dev/pricing for current info.
